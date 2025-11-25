@@ -1,5 +1,5 @@
 import google.generativeai as genai
-genai.configure(api_key="AIzaSyCEXzAB9iv_FnhByOeSOYPjYNqxExosW_w")
+genai.configure(api_key="API KEY")
 
 def chat_with_gemini(prompt):
     model = genai.GenerativeModel('gemini-2.5-flash-preview-05-20')
